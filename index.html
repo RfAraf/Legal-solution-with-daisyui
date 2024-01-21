@@ -60,20 +60,20 @@
         font-family: "EB Garamond", serif;
       }
 
-      /* .custom-gradient {
-        background: linear-gradient(to right, #111, rgba(17, 17, 17, 0));
-      } */
-
       /* <button class="btn bg-primary-color text-white border-0">Search</button> */
     </style>
   </head>
   <body class="font-poppins">
     <header>
-      <nav class="my-5 mx-3 md:my-12 md:mx-12 lg:mx-24 xl:mx-48">
-        <div class="navbar bg-base-100">
+      <nav class="my-5 mx-3 md:my-12 md:mx-12 lg:mx-24 xl:mx-48 p-0">
+        <div class="navbar bg-base-100 p-0 md:p-2">
           <div class="navbar-start">
             <div class="dropdown">
-              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <div
+                tabindex="0"
+                role="button"
+                class="p-0 pr-2 md:px-4 btn btn-ghost lg:hidden"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5 w-5"
@@ -130,14 +130,16 @@
             </ul>
           </div>
           <div class="navbar-end">
-            <a class="btn bg-primary-color text-white">Free Consultation</a>
+            <a class="btn bg-primary-color text-white p-2 md:p-4"
+              >Free Consultation</a
+            >
           </div>
         </div>
       </nav>
 
       <!-- banner -->
       <div
-        class="h-72 md:h-auto bg-gradient-to-r from-[#111] to-[#111] relative mx-3 md:mx-12 lg:mx-24 xl:mx-48 border-2"
+        class="rounded-lg h-72 md:h-auto bg-gradient-to-r from-[#111] to-[#111] relative mx-3 md:mx-12 lg:mx-24 xl:mx-48 border-2"
       >
         <img class="opacity-65 h-full" src="images/banner.png" alt="" />
         <div
